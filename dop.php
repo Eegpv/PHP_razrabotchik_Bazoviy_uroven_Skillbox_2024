@@ -80,3 +80,13 @@
 //     $i++;
 // }
 // echo $s;
+
+// $studentsList = ["Adam", "John", "Bobby", "Steve", "Mikle", ];
+//     foreach ($studentsList AS $key => $student) {
+//         if ($key < 2) {
+//         echo "$student - array $key" . " ";
+//     }
+//         if ($key == 2){
+//             break;
+//         }
+//     }
