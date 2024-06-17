@@ -90,3 +90,23 @@
 //             break;
 //         }
 //     }
+// $arr = [2, 4, 6, 8, 10,];
+//     for ($i = 0; $i < count($arr); $i++) {
+//     var_dump($arr) ;
+// } 
+// $arr = [2 => 'dva', 4 => 'chetire', 6 => 'shest', 8 => 'vosem',];
+// foreach($arr AS $key => $value) {
+//     echo $key . " " . $value . PHP_EOL;
+// }
+
+// $arr1 = ['my', 'text', 1, 2, 3, 4, 5, 6, 7, 8];
+// $arr2 = [rand(1, 3), rand(4, 8)];
+// $sumarr = array_merge($arr1, $arr2);
+// // var_dump($sumarr);
+// for ($i = 0; $i <= 15; $i++) {
+//     if (isset($sumarr[$i])) {
+//         echo "THIS element $sumarr[$i] is exist too" . " ";
+// } else {
+//     echo "пук среньк" . " ";
+// }
+// }
