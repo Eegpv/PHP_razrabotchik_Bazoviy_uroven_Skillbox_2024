@@ -99,3 +99,15 @@ function displayString ($str, $n) : void { // : void не вернет знач�
     }
 }
 displayString('test str', 3);
+
+function calculator (int $a, int $b, string $operation = '+') {
+
+    if ($operation == '+') {
+        return $a + $b;
+    } elseif ($operation == '-') {
+        return $a - $b;
+}
+}
+
+
+echo calculator(10, 5, '-');
